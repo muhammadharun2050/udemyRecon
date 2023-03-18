@@ -1,0 +1,10 @@
+#getallurl(gui)    //eta git tools // for url finding
+$ go install github.com/lc/gau/v2/cmd/gau@latest // for install
+$cp ~/go/bin/gau /usr/local/bin/     //
+$echo "example.com" | gau    //this command finding url
+$echo "example.com" | gau | tee example.txt    //this command finding all url .txt file
+$cat example.txt | grep = | tree example_.txt  // লিস্ট থেকে শুধু parameter গুলোকে আলাদা করা।
+$cat example.txt |grep -E *[.]js  //for find out js file 
+$wc -l // this use for see how many line  your txt file   
+NB: use also use "paremspider tools"
+
